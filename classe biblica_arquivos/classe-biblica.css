@@ -1,4 +1,4 @@
-/* Generated on: Sat Mar 20 2021 14:50:39 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Mon Mar 22 2021 12:30:35 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -37,18 +37,21 @@
   display: -ms-grid;
   display: grid;
   width: 100%;
-  height: 100px;
+  height: 150px;
   margin: 0px;
   padding: 0px;
   -webkit-box-pack: start;
-  -webkit-justify-content: flex-start;
+  -webkit-justify-content: start;
   -ms-flex-pack: start;
-  justify-content: flex-start;
+  justify-content: start;
   justify-items: center;
   -webkit-box-align: center;
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
+  -webkit-align-content: center;
+  -ms-flex-line-pack: center;
+  align-content: center;
   grid-auto-flow: column;
   grid-auto-columns: -webkit-max-content;
   grid-auto-columns: max-content;
@@ -73,9 +76,9 @@
 
 .nav-logo {
   width: auto;
-  height: 100px;
+  height: 140px;
   max-width: 200px;
-  margin-top: -20px;
+  margin-top: -40px;
   -o-object-fit: contain;
   object-fit: contain;
   -o-object-position: 0% 50%;
@@ -480,7 +483,7 @@
   }
 
   .nav-grid {
-    height: 230px;
+    height: 300px;
     grid-auto-flow: row;
     grid-column-gap: 0px;
     grid-row-gap: 0px;
@@ -494,10 +497,19 @@
     border: 0px solid #000;
   }
 
+  .nav-logo {
+    margin-top: 0px;
+  }
+
   .nav-link {
+    margin-top: 80px;
     padding-top: 10px;
     padding-bottom: 10px;
     border-top: 1px solid #c4c4c4;
+  }
+
+  .nav-link.second-link {
+    margin-top: 0px;
   }
 }
 
