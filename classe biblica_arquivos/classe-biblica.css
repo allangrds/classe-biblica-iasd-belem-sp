@@ -303,6 +303,7 @@
   border-width: 0px 0px 4px;
   border-color: #000 #000 #ffd301;
   box-shadow: 0 0 11px -5px rgba(0, 0, 0, 0.19);
+  min-height: 271.5px;
 }
 
 .heading-4 {
