@@ -330,11 +330,15 @@
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  width: 90px;
+  width: 120px;
   -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
   -ms-flex-pack: justify;
   justify-content: space-between;
+}
+
+.div-block-4 img {
+  max-width: 35px;
 }
 
 .link-block {
