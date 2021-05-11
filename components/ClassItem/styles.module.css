@@ -1,0 +1,46 @@
+.class {
+  display: flex;
+  flex-direction: row;
+}
+
+.timeline {
+  position: relative;
+  margin-right: 12px;
+}
+
+.circle {
+  background-color: var(--color-primary);
+  width: 42px;
+  height: 42px;
+  border-radius: 42px;
+}
+
+.line {
+  border: 0;
+  border-top: 4px solid var(--color-primary);
+  transform: rotate(90deg);
+  width: 100px;
+  position: absolute;
+  left: -29px;
+  bottom: 16px;
+  margin: 0;
+}
+
+.class_name {
+  font-family: 'Lato', sans-serif;
+  font-weight: normal;
+  font-size: 1.5em;
+  margin-bottom: 15px;
+  margin-top: 5px;
+}
+
+.link {
+  display: block;
+  font-family: 'Lato', sans-serif;
+  font-weight: normal;
+  font-size: 1.2em;
+  margin-bottom: 0;
+  margin-top: 5px;
+  text-decoration: none;
+  margin-bottom: 40px;
+}
