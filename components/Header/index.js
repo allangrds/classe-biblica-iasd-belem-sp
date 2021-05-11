@@ -37,7 +37,7 @@ export default function Header () {
                 <li className={styles.menu_item}>
                   <a
                     className={styles.menu_link}
-                    href="#"
+                    href="#about"
                   >
                     Sobre
                   </a>

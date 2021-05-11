@@ -5,7 +5,7 @@ import Image from 'next/image'
 
 export default function About() {
   return (
-    <div className={styles.wrapper}>
+    <div className={styles.wrapper} id="about">
       <div className={styles.container}>
         <h2 className={styles.title}>
           Sobre
