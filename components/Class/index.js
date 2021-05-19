@@ -30,6 +30,10 @@ export default function Class() {
           title="5. Quem é Jesus?"
           link="https://www.youtube.com/watch?v=O_MXeRXYUvA"
         />
+        <ClassItem
+          title="6. Se Deus existe, por que sofremos?"
+          link="https://www.youtube.com/watch?v=Xqlfc-wteBQ"
+        />
       </div>
     </div>
   )
