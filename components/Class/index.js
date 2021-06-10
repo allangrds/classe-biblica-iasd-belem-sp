@@ -34,6 +34,18 @@ export default function Class() {
           title="6. Se Deus existe, por que sofremos?"
           link="https://www.youtube.com/watch?v=Xqlfc-wteBQ"
         />
+        <ClassItem
+          title="7. Se Deus existe, por que sofremos? Parte final"
+          link="https://www.youtube.com/watch?v=7wHgiLMSGxU"
+        />
+        <ClassItem
+          title="8. Deus na encruzilhada do pecado"
+          link="https://www.youtube.com/watch?v=PTRFGKgID3s"
+        />
+        <ClassItem
+          title="9. O conflito cósmico atingiu a todos nós?"
+          link="https://www.youtube.com/watch?v=wyoydRSsygc"
+        />
       </div>
     </div>
   )
