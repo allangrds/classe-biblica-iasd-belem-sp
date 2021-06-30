@@ -46,6 +46,18 @@ export default function Class() {
           title="9. O conflito cósmico atingiu a todos nós?"
           link="https://www.youtube.com/watch?v=wyoydRSsygc"
         />
+        <ClassItem
+          title="10. Sudário de Turim. Fraude ou verdade?"
+          link="https://www.youtube.com/watch?v=w_evDvdWvRI"
+        />
+        <ClassItem
+          title="11. Jesus apaixonado?"
+          link="https://www.youtube.com/watch?v=OUaZl5ToaDE"
+        />
+        <ClassItem
+          title="12. O Espírito Santo"
+          link="https://www.youtube.com/watch?v=g5vYjv_bteo"
+        />
       </div>
     </div>
   )
