@@ -58,6 +58,18 @@ export default function Class() {
           title="12. O Espírito Santo"
           link="https://www.youtube.com/watch?v=g5vYjv_bteo"
         />
+        <ClassItem
+          title="13. Graça x Lei"
+          link="https://www.youtube.com/watch?v=g1Sdpv7_Les"
+        />
+        <ClassItem
+          title="14. Jesus alterou a lei de Deus?"
+          link="https://www.youtube.com/watch?v=VllGUk_uQVI"
+        />
+        <ClassItem
+          title="15. Nova ou Velha Aliança com Deus?"
+          link="https://www.youtube.com/watch?v=y3IkJnYOpEI"
+        />
       </div>
     </div>
   )
