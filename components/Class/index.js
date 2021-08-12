@@ -14,7 +14,7 @@ export default function Class() {
         {
           classes.map((item, index) => (
             <ClassItem
-              title={`${index}. ${item.title}`}
+              title={`${index + 1}. ${item.title}`}
               link={item.link}
             />
           ))
