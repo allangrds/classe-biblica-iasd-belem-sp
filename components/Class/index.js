@@ -70,6 +70,18 @@ export default function Class() {
           title="15. Nova ou Velha Aliança com Deus?"
           link="https://www.youtube.com/watch?v=y3IkJnYOpEI"
         />
+        <ClassItem
+          title="16. Estou salvo? Do quê?"
+          link="https://www.youtube.com/watch?v=qeHOpygH-SU"
+        />
+        <ClassItem
+          title="17. O mais espetáculo do universo"
+          link="https://www.youtube.com/watch?v=FOz8Gu0m-4A"
+        />
+        <ClassItem
+          title="18. Está esperando o salvador da pátria?"
+          link="https://www.youtube.com/watch?v=MW_MjbKskeY"
+        />
       </div>
     </div>
   )
