@@ -75,6 +75,14 @@ const classes = [
     title: 'O paraíso existe mesmo?',
     link: 'https://www.youtube.com/watch?v=pDOzr56SyvY&list=PLppLvvJrMNnYPKlbAgUnFPgw7WgYNtvfE&index=9',
   },
+  {
+    title: 'A tirania do politicamente correto',
+    link: 'https://www.youtube.com/watch?v=1kLRt6QRMhg',
+  },
+  {
+    title: 'A nova Jerusalém',
+    link: 'https://www.youtube.com/watch?v=KwwK_AuvARk',
+  },
 ]
 
 export default classes
