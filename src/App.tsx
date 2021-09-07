@@ -4,6 +4,7 @@ import {
   Switch,
   Route,
 } from 'react-router-dom'
+import * as S from './styles'
 
 function App() {
   return (
@@ -11,12 +12,12 @@ function App() {
       <Switch>
         <Route exact path="/">
           <div>
-            <p>home</p>
+            <S.Title>home</S.Title>
           </div>
         </Route>
         <Route path="/about">
           <div>
-            <p>sobre</p>
+            <S.Title>sobre</S.Title>
           </div>
         </Route>
       </Switch>

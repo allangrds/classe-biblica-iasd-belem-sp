@@ -32,7 +32,7 @@ jobs:
       run: npm install
 
     - name: Run lint of modified files
-      run: npm run lint:ci
+      run: npm run lint:diff
   commit-lint:
     runs-on: ubuntu-latest
     steps:
