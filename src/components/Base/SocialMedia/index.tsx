@@ -18,24 +18,27 @@ const SocialMedia = () => (
           <a
             href="https://www.facebook.com/novavisaoparanovotempo/"
             target="_blank"
+            rel="noopener"
           >
-            <S.Image src={FacebookIcon} alt="" />
+            <S.Image src={FacebookIcon} alt="Facebook" />
           </a>
         </S.Item>
         <S.Item>
           <a
             href="https://www.instagram.com/novavisaoparanovotempo/"
             target="_blank"
+            rel="noopener"
           >
-            <S.Image src={InstagramIcon} alt="" />
+            <S.Image src={InstagramIcon} alt="Instagram" />
           </a>
         </S.Item>
         <S.Item>
           <a
             href="https://www.youtube.com/channel/novavisaoparanovotempo"
             target="_blank"
+            rel="noopener"
           >
-            <S.Image src={YoutubeIcon} alt="" />
+            <S.Image src={YoutubeIcon} alt="Youtube" />
           </a>
         </S.Item>
       </S.List>

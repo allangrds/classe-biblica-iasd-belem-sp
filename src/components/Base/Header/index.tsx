@@ -9,7 +9,7 @@ const Header = () => (
   <S.Header>
     <Container>
       <S.Content>
-        <S.Logo src={logo} />
+        <S.Logo src={logo} alt="Uma Nova Visão para um Novo Tempo" />
         <S.Navigation>
           <ul>
             <S.MenuItem>
