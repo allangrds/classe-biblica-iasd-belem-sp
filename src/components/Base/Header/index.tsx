@@ -14,9 +14,9 @@ const Header = () => (
           <ul>
             <S.MenuItem>
               <S.MenuLink
-                href="#sobre"
+                to="o-livro-de-daniel"
               >
-                Sobre
+                O livro de Daniel
               </S.MenuLink>
             </S.MenuItem>
           </ul>

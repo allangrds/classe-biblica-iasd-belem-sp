@@ -5,6 +5,7 @@ import { colors } from '../../../styles'
 export const Class = styled.div`
   display: flex;
   flex-direction: row;
+  min-height: 136px;
 `
 
 export const Timeline = styled.div`
@@ -23,10 +24,10 @@ export const Line = styled.hr`
   border: 0;
   border-top: 4px solid ${colors.BLACK};
   transform: rotate(90deg);
-  width: 100px;
+  width: 145px;
   position: absolute;
-  left: -40px;
-  bottom: 38px;
+  left: -62px;
+  bottom: 42px;
   margin: 0;
 `
 
