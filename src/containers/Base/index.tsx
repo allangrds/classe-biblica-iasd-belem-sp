@@ -1,11 +1,12 @@
 import React from 'react'
 
-import { Header, Hero } from '../../components/Base'
+import { Header, Hero, SocialMedia } from '../../components/Base'
 
 const Base = () => (
   <>
     <Header />
     <Hero />
+    <SocialMedia />
   </>
 )
 

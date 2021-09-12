@@ -21,7 +21,10 @@ const Hero = () => (
           </S.Description>
         </div>
         <S.ImageWrapper>
-          <S.Image src={BibleIllustration} />
+          <S.Image
+            src={BibleIllustration}
+            alt="menina em pé ao lado de uma Bíblia"
+          />
         </S.ImageWrapper>
       </S.Hero>
     </Container>
