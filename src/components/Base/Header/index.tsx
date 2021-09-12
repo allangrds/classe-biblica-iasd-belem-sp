@@ -14,15 +14,7 @@ const Header = () => (
           <ul>
             <S.MenuItem>
               <S.MenuLink
-                target="_blank"
-                href="https://docs.google.com/forms/d/e/1FAIpQLSdXSUvsFKFJdHkbTHInXXC_RDNfqkb1PG9slWI2HxgvDtysfQ/viewform?usp=sf_link"
-              >
-                Inscreva-se
-              </S.MenuLink>
-            </S.MenuItem>
-            <S.MenuItem>
-              <S.MenuLink
-                href="#about"
+                href="#sobre"
               >
                 Sobre
               </S.MenuLink>

@@ -1,9 +1,12 @@
 import React from 'react'
 
-import { Header } from '../../components/Base'
+import { Header, Hero } from '../../components/Base'
 
 const Base = () => (
-  <Header />
+  <>
+    <Header />
+    <Hero />
+  </>
 )
 
 export default Base
