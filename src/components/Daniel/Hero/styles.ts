@@ -3,7 +3,7 @@ import styled from 'styled-components'
 import { colors } from '../../../styles'
 
 export const Hero = styled.section`
-  padding: 60px 30px;
+  padding: 130px 30px;
   display: flex;
   align-items: center;
   justify-content: space-between;
