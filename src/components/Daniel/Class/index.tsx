@@ -9,6 +9,7 @@ const Class = () => (
   <Container>
     <S.Content>
       <TitleSubtitle
+        id="aulas"
         title="aulas"
         subtitle="Link das aulas gravadas e do material em texto."
       />

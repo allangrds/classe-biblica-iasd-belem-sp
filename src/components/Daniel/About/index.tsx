@@ -10,6 +10,7 @@ const About = () => (
   <Container>
     <S.Content>
       <TitleSubtitle
+        id="sobre"
         title="Sobre"
         subtitle="Estudo estudo, “O Livro de Daniel”, é o segundo conjunto de estudos do projeto “Uma Nova Visão para um Novo Tempo”."
       />
