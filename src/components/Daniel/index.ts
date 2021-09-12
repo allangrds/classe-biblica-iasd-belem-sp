@@ -1,11 +1,13 @@
+import About from './About'
 import Class from './Class'
 import Header from './Header'
 import Hero from './Hero'
-import SocialMedia from './SocialMedia'
+import TitleSubtitle from './TitleSubtitle'
 
 export {
+  About,
   Class,
   Header,
   Hero,
-  SocialMedia,
+  TitleSubtitle,
 }

@@ -6,7 +6,6 @@ export const Content = styled.div`
   margin-bottom: 60px;
 `
 
-// eslint-disable-next-line import/prefer-default-export
 export const Title = styled.h3`
   font-size: 1.9rem;
   font-weight: normal;

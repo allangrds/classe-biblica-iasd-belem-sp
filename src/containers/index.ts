@@ -1,6 +1,7 @@
 import Base from './Base'
+import Daniel from './Daniel'
 
 export {
-  // eslint-disable-next-line import/prefer-default-export
   Base,
+  Daniel,
 }

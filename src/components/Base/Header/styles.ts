@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom'
 
 import { colors } from '../../../styles'
 
-// eslint-disable-next-line import/prefer-default-export
 export const Header = styled.div`
   background-color: ${colors.BASE_PRIMARY};
   padding: 20px 30px;
