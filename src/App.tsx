@@ -1,22 +1,25 @@
-import React from 'react'
+import React, { Suspense } from 'react'
 import {
   BrowserRouter as Router,
   Switch,
   Route,
 } from 'react-router-dom'
 
+import BasePage from './containers/Base'
 import './style.css'
 
-import { Base, Daniel } from './containers'
+const DanielPage = React.lazy(() => import('./containers/Daniel'))
 
 const App = () => (
   <Router>
     <Switch>
       <Route exact path="/">
-        <Base />
+        <BasePage />
       </Route>
       <Route path="/o-livro-de-daniel">
-        <Daniel />
+        <Suspense fallback={<div>Carregando...</div>}>
+          <DanielPage />
+        </Suspense>
       </Route>
     </Switch>
   </Router>

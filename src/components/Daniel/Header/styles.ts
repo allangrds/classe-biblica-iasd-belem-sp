@@ -51,7 +51,7 @@ export const ListItem = styled.li`
 
 export const Link = styled.a`
   text-decoration: none;
-  color: ${colors.BLACK};
+  color: ${colors.DANIEL_MENU};
   font-size: 1.25rem;
   font-style: normal;
   font-weight: 400;
