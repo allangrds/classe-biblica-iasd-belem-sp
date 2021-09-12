@@ -5,6 +5,7 @@ import { colors } from '../../../styles'
 export const Content = styled.div`
   padding-left: 30px;
   padding-right: 30px;
+  padding-bottom: 90px;
 `
 
 export const Cards = styled.div`

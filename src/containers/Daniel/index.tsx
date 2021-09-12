@@ -1,6 +1,11 @@
 import React from 'react'
 
-import { About, Header, Hero } from '../../components/Daniel'
+import {
+  About,
+  Class,
+  Header,
+  Hero,
+} from '../../components/Daniel'
 
 const Daniel = () => (
   <>
@@ -8,6 +13,7 @@ const Daniel = () => (
     <main>
       <Hero />
       <About />
+      <Class />
     </main>
   </>
 )
