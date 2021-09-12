@@ -7,7 +7,6 @@ export const Header = styled.header`
   width: 100%;
 `
 
-// eslint-disable-next-line import/prefer-default-export
 export const HeaderLine = styled.div`
   background-image: url(${HeaderLineIllustration});
   width: 100%;

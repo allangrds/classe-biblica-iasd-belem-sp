@@ -1,9 +1,14 @@
 import React from 'react'
 
-import { Header } from '../../components/Daniel'
+import { Header, Hero } from '../../components/Daniel'
 
 const Daniel = () => (
-  <Header />
+  <>
+    <Header />
+    <main>
+      <Hero />
+    </main>
+  </>
 )
 
 export default Daniel
