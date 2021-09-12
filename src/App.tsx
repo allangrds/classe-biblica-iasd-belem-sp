@@ -7,7 +7,7 @@ import {
 
 import './style.css'
 
-import { Base } from './containers'
+import { Base, Daniel } from './containers'
 
 const App = () => (
   <Router>
@@ -15,10 +15,8 @@ const App = () => (
       <Route exact path="/">
         <Base />
       </Route>
-      <Route path="/about">
-        <div>
-          <p>sobre</p>
-        </div>
+      <Route path="/o-livro-de-daniel">
+        <Daniel />
       </Route>
     </Switch>
   </Router>

@@ -1,6 +1,7 @@
+import * as Base from './Base'
 import Container from './Container'
 
 export {
-  // eslint-disable-next-line import/prefer-default-export
+  Base,
   Container,
 }
