@@ -1,16 +1,14 @@
 import styled from 'styled-components'
+import { Link as ReactLink } from 'react-router-dom'
 
-import HeaderLineIllustration from '../../../assets/images/daniel_header_footer.png'
 import { colors } from '../../../styles'
 
 export const Header = styled.header`
   width: 100%;
-`
-
-export const HeaderLine = styled.div`
-  background-image: url(${HeaderLineIllustration});
-  width: 100%;
-  height: 33px;
+  background-color: ${colors.DANIEL_MENU_BACKGROUND};
+  padding-bottom: 20px;
+  padding-top: 20px;
+  border-bottom: 6px solid ${colors.DANIEL_MENU_BORDER};
 `
 
 export const Content = styled.div`
@@ -18,17 +16,23 @@ export const Content = styled.div`
   align-items: center;
   padding: 30px 20px;
 
-  @media screen and (max-width: 549px) {
+  @media screen and (max-width: 720px) {
     flex-direction: column;
+  }
+
+  @media screen and (min-width: 721px) {
+    justify-content: space-between;
   }
 `
 
 export const Logo = styled.img`
-  @media screen and (max-width: 549px) {
+  max-width: 350px;
+
+  @media screen and (max-width: 720px) {
     margin-bottom: 30px;
   }
 
-  @media screen and (min-width: 550px) {
+  @media screen and (min-width: 721px) {
     margin-right: 50px;
   }
 `
@@ -38,24 +42,37 @@ export const List = styled.ul`
 `
 
 export const ListItem = styled.li`
-  @media screen and (max-width: 549px) {
-    margin-bottom: 15px;
+  @media screen and (max-width: 720px) {
+    margin-bottom: 20px;
   }
 
-  @media screen and (min-width: 550px) {
+  @media screen and (min-width: 721px) {
     display: inline-block;
-    margin-right: 10px;
+    margin-right: 15px;
   }
 `
 
 export const Link = styled.a`
   text-decoration: none;
-  color: ${colors.DANIEL_MENU};
+  color: ${colors.DANIEL_MENU_LINK};
   font-size: 1.25rem;
   font-style: normal;
   font-weight: 400;
 
-  @media screen and (max-width: 549px) {
+  @media screen and (max-width: 720px) {
+    text-align: center;
+    display: block;
+  }
+`
+
+export const RealLink = styled(ReactLink)`
+  text-decoration: none;
+  color: ${colors.DANIEL_MENU_LINK};
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 400;
+
+  @media screen and (max-width: 720px) {
     text-align: center;
     display: block;
   }

@@ -12,7 +12,7 @@ const About = () => (
       <TitleSubtitle
         id="sobre"
         title="Sobre"
-        subtitle="Estudo estudo, “O Livro de Daniel”, é o segundo conjunto de estudos do projeto “Uma Nova Visão para um Novo Tempo”."
+        subtitle="Este estudo “O Livro de Daniel” é o segundo conjunto de estudos do projeto “Uma Nova Visão para um Novo Tempo”."
       />
       <S.Cards>
         {

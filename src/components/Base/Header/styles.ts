@@ -57,5 +57,4 @@ export const MenuLink = styled(Link)`
   text-decoration: none;
   color: ${colors.BASE_MENU};
   font-size: 1.1rem;
-  text-transform: uppercase;
 `

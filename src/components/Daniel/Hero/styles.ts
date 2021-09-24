@@ -36,7 +36,7 @@ export const Image = styled.img`
 `
 
 export const Title = styled.h1`
-  color: ${colors.DANIEL_PRIMARY};
+  color: ${colors.DANIEL_HERO_TITLE};
   font-size: 3.4rem;
   font-style: normal;
   font-weight: bold;
@@ -45,7 +45,7 @@ export const Title = styled.h1`
 `
 
 export const Subtitle = styled.h1`
-  color: ${colors.DANIEL_SECONDARY};
+  color: ${colors.DANIEL_HERO_SUBTITLE};
   font-size: 2rem;
   font-style: normal;
   font-weight: normal;
@@ -54,7 +54,7 @@ export const Subtitle = styled.h1`
 `
 
 export const Description = styled.h1`
-  color: ${colors.DANIEL_SECONDARY};
+  color: ${colors.DANIEL_HERO_DESCRIPTION};
   font-size: 1.3rem;
   font-style: normal;
   font-weight: normal;

@@ -16,7 +16,7 @@ const Header = () => (
               <S.MenuLink
                 to="o-livro-de-daniel"
               >
-                O livro de Daniel
+                o livro de daniel
               </S.MenuLink>
             </S.MenuItem>
           </ul>
