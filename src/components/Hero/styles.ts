@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 
-import { colors } from '../../../styles'
+import { colors } from '../../styles'
 
 export const Hero = styled.section`
   padding: 130px 30px;
