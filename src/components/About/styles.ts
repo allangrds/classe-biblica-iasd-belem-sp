@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 
-import { colors } from '../../../styles'
+import { colors } from '../../styles'
 
 export const Content = styled.div`
   padding-left: 30px;
@@ -52,4 +52,17 @@ export const Description = styled.p`
   @media screen and (min-width: 531px) {
     height: 90px;
   }
+`
+
+export const FisicalClass = styled.p`
+  color: ${colors.BASE_PRIMARY};
+  font-size: 1.6rem;
+  margin-top: 46px;
+  text-transform: uppercase;
+`
+
+export const OnlineClass = styled.p`
+  font-size: 1.6rem;
+  margin-top: 75px;
+  text-transform: uppercase;
 `
