@@ -1,7 +1,6 @@
 import styled from 'styled-components'
-import { Link as ReactLink } from 'react-router-dom'
 
-import { colors } from '../../../styles'
+import { colors } from '../../styles'
 
 export const Header = styled.header`
   width: 100%;
@@ -14,7 +13,8 @@ export const Header = styled.header`
 export const Content = styled.div`
   display: flex;
   align-items: center;
-  padding: 30px 20px;
+  padding-left: 20px;
+  padding-right: 20px;
 
   @media screen and (max-width: 720px) {
     flex-direction: column;
@@ -26,7 +26,7 @@ export const Content = styled.div`
 `
 
 export const Logo = styled.img`
-  max-width: 350px;
+  max-width: 250px;
 
   @media screen and (max-width: 720px) {
     margin-bottom: 30px;
@@ -53,19 +53,6 @@ export const ListItem = styled.li`
 `
 
 export const Link = styled.a`
-  text-decoration: none;
-  color: ${colors.DANIEL_MENU_LINK};
-  font-size: 1.25rem;
-  font-style: normal;
-  font-weight: 400;
-
-  @media screen and (max-width: 720px) {
-    text-align: center;
-    display: block;
-  }
-`
-
-export const RealLink = styled(ReactLink)`
   text-decoration: none;
   color: ${colors.DANIEL_MENU_LINK};
   font-size: 1.25rem;

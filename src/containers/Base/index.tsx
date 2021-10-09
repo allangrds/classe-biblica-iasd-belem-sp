@@ -1,18 +1,15 @@
 import React from 'react'
 
 import {
-  Class,
   Header,
-  Hero,
-  SocialMedia,
-} from '../../components/Base'
+} from '../../components'
 
 const Base = () => (
   <>
     <Header />
-    <Hero />
+    {/* <Hero />
     <SocialMedia />
-    <Class />
+    <Class /> */}
   </>
 )
 
