@@ -22,6 +22,30 @@ const Header = () => (
                 aulas
               </S.Link>
             </S.ListItem>
+            <S.ListItem>
+              <S.Link
+                href="https://www.facebook.com/novavisaoparanovotempo"
+                target="_blank"
+              >
+                facebook
+              </S.Link>
+            </S.ListItem>
+            <S.ListItem>
+              <S.Link
+                href="https://www.instagram.com/novavisaoparanovotempo/"
+                target="_blank"
+              >
+                instagram
+              </S.Link>
+            </S.ListItem>
+            <S.ListItem>
+              <S.Link
+                href="https://www.youtube.com/novavisaoparanovotempo?gl=BR"
+                target="_blank"
+              >
+                youtube
+              </S.Link>
+            </S.ListItem>
           </S.List>
         </nav>
       </S.Content>
