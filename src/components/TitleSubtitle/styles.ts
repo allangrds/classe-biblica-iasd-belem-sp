@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 
-import { colors } from '../../../styles'
+import { colors } from '../../styles'
 
 export const Title = styled.h3`
   color: ${colors.DANIEL_PRIMARY};

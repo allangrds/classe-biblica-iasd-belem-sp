@@ -1,7 +1,7 @@
 import React from 'react'
 
-import Container from '../../Container'
-import HeroImage from '../../../assets/images/hero_image.png'
+import Container from '../Container'
+import HeroImage from '../../assets/images/hero_image.png'
 import * as S from './styles'
 
 const Hero = () => (

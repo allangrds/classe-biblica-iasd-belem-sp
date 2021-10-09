@@ -1,7 +1,13 @@
-import * as Base from './Base'
+import About from './About'
+import Class from './Class'
 import Container from './Container'
+import Header from './Header'
+import Hero from './Hero'
 
 export {
-  Base,
+  About,
+  Class,
   Container,
+  Header,
+  Hero,
 }

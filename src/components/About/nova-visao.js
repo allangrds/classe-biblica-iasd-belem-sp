@@ -8,10 +8,6 @@ const cards = [
     subtitle: 'Todo sábado, 12h',
   },
   {
-    title: 'Quando',
-    subtitle: 'Presencialmente no sábado. Gravação disponível no sábado seguinte, 16:30.',
-  },
-  {
     title: 'Onde',
     subtitle: 'Rua Martim Affonso, 152 - Belenzinho, São Paulo - SP, 03057-050',
   },
