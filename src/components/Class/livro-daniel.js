@@ -1,6 +1,6 @@
 const classes: any[] = [
   // {
-  //   title: 'De Jerusalém a Babilônia',
+  //   title: '',
   //   url: '',
   // },
 ]
